@@ -1,0 +1,38 @@
+/* ID Selector */
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* Tag Selector */
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    background-color: #6D8B74;
+    color: white;
+    border-color: white;
+    
+
+  }
+  
+
+  div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+  }
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: #5F7161;
+}
